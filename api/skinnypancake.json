@@ -1,0 +1,11 @@
+
+  {
+    "id": "skinny-pancake",
+    "name": "Skinny Pancake",
+    "address": "160 Bank St",
+    "phone": "(802) 859-0888",
+    "hours": ["Friday - Wednesday: 4PM-10PM", "Thursday: Closed"],
+    "latitude": 44.478382666090916,
+    "longitude": -73.21968593603044,
+    "notes": "Love dining close to the water!"
+  }

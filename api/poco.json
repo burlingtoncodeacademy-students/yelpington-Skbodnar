@@ -1,0 +1,12 @@
+
+  {
+    "id": "poco",
+    "name": "Poco",
+    "address": "55 Main St",
+    "phone": "802-497-2587",
+    "hours": "Currently Closed",
+    "latitude": 44.475795300698366,
+    "longitude": -73.21751989992366,
+    "notes": "Delicious!"
+  }
+

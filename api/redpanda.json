@@ -1,0 +1,12 @@
+
+  {
+    "id": "red-panda",
+    "name": "Red Panda",
+    "address": "161 Church St",
+    "phone": "802-489-5479",
+    "hours": ["Thursday - Tuesday: 11Am-10PM", "Wednesay: Closed"],
+    "latitude": 44.48098495701074,
+    "longitude": -73.21192403708064,
+    "notes": "Divine!"
+  }
+

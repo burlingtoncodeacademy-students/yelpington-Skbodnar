@@ -1,0 +1,84 @@
+[
+  {
+    "id": "shy-guy",
+    "name": "Shy Guy Gelato",
+    "address": "457 St Paul St",
+    "phone number": "802-355-2320",
+    "hours": ["Thursday: 12pm-7pm", "Friday-Saturday: 12pm-8pm", "Sunday: 12pm-7pm", "Monday: Closed", "Tuesday: Closed"],
+    "latitude": 44.4674988584091,
+    "longitude": -73.20997489992381,
+    "notes": "Yummy"
+  },
+
+  {
+    "id": "poco",
+    "name": "Poco",
+    "address": "55 Main St",
+    "phone number": "802-497-2587",
+    "hours": "Currently Closed",
+    "latitude": 44.475795300698366,
+    "longitude": -73.21751989992366,
+    "notes": "Delicious!"
+  },
+  {
+    "id": "honey-road",
+    "name": "Honey Road",
+    "address": "156 Church St",
+    "phone number": "802-497-2145",
+    "hours": ["Thursdy: 5pm-9pm", "Friday: 5pm - 9pm", "Saturday: 5pm - 9pm", "Sunday - Tusday: Closed"],
+    "latitude": 44.476290910282735,
+    "longitude": -73.21234073245874,
+    "notes": "Fabulous!"
+  },
+  {
+    "id": "red-panda",
+    "name": "Red Panda",
+    "address": "161 Church St",
+    "phone number": "802-489-5479",
+    "hours": ["Thursday - Tuesday: 11Am-10PM", "Wednesay: Closed"],
+    "latitude": 44.48098495701074,
+    "longitude": -73.21192403708064,
+    "notes": "Divine!"
+  },
+  {
+    "id": "dedalus",
+    "name": "dedalus",
+    "address": "388 Pine St",
+    "phone number": "802-865-2368",
+    "hours": ["Sunday - Saturday: 5PM-10PM"],
+    "latitude": 44.468722390587146,
+    "longitude": -73.2142729594449,
+    "notes": "Pricey, but worth it!"
+  },
+
+  {
+    "id": "pho-hong",
+    "name": "Pho Hong",
+    "address": "325 N Winooski Ave",
+    "phone number": "802-865-8031",
+    "hours": ["Tuesday - Saturday: 10AM-8PM", "Sunday: Closed", "Monday: Closed"],
+    "latitude": 44.48904593154769,
+    "longitude": -73.20704281526592,
+    "notes": "Pricey, but worth it!"
+  },
+  {
+    "id": "farmhouse",
+    "name": "The Farmhouse Tap & Grill",
+    "address": "160 Bank St",
+    "phone number": "(802) 859-0888",
+    "hours": ["Monday - Friday: 4PM-10PM", "Saturday - Sunday: 12pm - 10pm"],
+    "latitude": 44.47854842725688,
+    "longitude": -73.21328354410184,
+    "notes": "Very Noisy!"
+  },
+  {
+    "id": "skinny-pancake",
+    "name": "Skinny Pancake",
+    "address": "160 Bank St",
+    "phone number": "(802) 859-0888",
+    "hours": ["Friday - Wednesday: 4PM-10PM", "Thursday: Closed"],
+    "latitude": 44.478382666090916,
+    "longitude": -73.21968593603044,
+    "notes": "Love dining close to the water!"
+  }
+]

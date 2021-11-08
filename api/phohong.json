@@ -1,0 +1,16 @@
+
+  {
+    "id": "pho-hong",
+    "name": "Pho Hong",
+    "address": "325 N Winooski Ave",
+    "phone": "802-865-8031",
+    "hours": [
+      "Tuesday - Saturday: 10AM-8PM",
+      "Sunday: Closed",
+      "Monday: Closed"
+    ],
+    "latitude": 44.48904593154769,
+    "longitude": -73.20704281526592,
+    "notes": "Pricey, but worth it!"
+  }
+

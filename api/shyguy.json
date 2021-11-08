@@ -1,0 +1,15 @@
+{
+  "id": "shy-guy",
+  "name": "Shy Guy Gelato",
+  "address": "457 St Paul St",
+  "phone": "802-355-2320",
+  "hours": [
+    "Thursday: 12pm-7pm;",
+    "Friday-Saturday: 12pm-8pm;",
+    "Sunday: 12pm-7pm;",
+    "Monday & Tuesday: Closed"
+  ],
+  "latitude": 44.4674988584091,
+  "longitude": -73.20997489992381,
+  "notes": "Yummy"
+}

@@ -25,7 +25,7 @@ function HoneyRoad() {
   const [lat, setLat] = useState(44.476290910282735);
   const [lon, setLon] = useState(-73.21234073245874);
 
-    //useEffect to fetch data from api
+  //useEffect to fetch data from api
   useEffect(() => {
     fetch("/api/honeyroad")
       .then((response) => {
@@ -46,6 +46,7 @@ function HoneyRoad() {
 
   return (
     <>
+      {/* Renders Header component to the page along with Restaurant name and information */}
       <div>
         <Header />
         <span className="Info">
@@ -72,6 +73,7 @@ function HoneyRoad() {
             </li>
           </ul>
         </span>
+        {/* Renders map to the page with marker set at restaurant's location */}
         <MapContainer
           className="restMap"
           center={[lat, lon]}

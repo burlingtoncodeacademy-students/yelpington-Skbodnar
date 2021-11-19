@@ -25,7 +25,6 @@ function ShyGuy() {
   const [lat, setLat] = useState(44.468722390587146);
   const [lon, setLon] = useState(-73.2142729594449);
 
-
   //useEffect to fetch data from api
   useEffect(() => {
     fetch("/api/shyguy")
@@ -47,10 +46,13 @@ function ShyGuy() {
   return (
     <>
       <div>
-      <Header />
+        {/* Renders Header component to the page along with Restaurant name and information */}
+        <Header />
         <span className="Info">
           <h1 id="restName">
-            <b><i>{name}</i></b>
+            <b>
+              <i>{name}</i>
+            </b>
           </h1>
           <ul id="restInfo">
             <li>
@@ -70,6 +72,7 @@ function ShyGuy() {
             </li>
           </ul>
         </span>
+        {/* Renders map to the page with marker set at restaurant's location */}
         <MapContainer
           className="restMap"
           center={[lat, lon]}

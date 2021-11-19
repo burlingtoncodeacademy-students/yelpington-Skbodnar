@@ -15,7 +15,6 @@ let DefaultIcon = L.icon({
   shadowUrl: iconShadow,
 });
 
-
 //setting state for properties on my restaurant objects
 function RedPanda() {
   const [name, setName] = useState("");
@@ -26,7 +25,7 @@ function RedPanda() {
   const [lat, setLat] = useState(44.468722390587146);
   const [lon, setLon] = useState(-73.2142729594449);
 
-    //useEffect to fetch data from api
+  //useEffect to fetch data from api
   useEffect(() => {
     fetch("/api/redpanda")
       .then((response) => {
@@ -40,25 +39,40 @@ function RedPanda() {
         setNotes(dataArr.notes);
         setLat(dataArr.latitude);
         setLon(dataArr.longitude);
-        console.log(dataArr.name)
+        console.log(dataArr.name);
       });
   }, []);
 
   return (
     <>
       <div>
+        {/* Renders Header component to the page along with Restaurant name and information */}
         <Header />
         <span className="Info">
-        <h1 id="restName">
-        <b><i>{name}</i></b>
-        </h1>
-        <ul id="restInfo">
-          <li><b>Hours:</b> {hours}</li> 
-          <li><b>Address:</b>{address}</li>
-          <li><b>Phone:</b>{phone}</li>
-          <li><b>Notes:</b>{notes}</li>
-        </ul>
+          <h1 id="restName">
+            <b>
+              <i>{name}</i>
+            </b>
+          </h1>
+          <ul id="restInfo">
+            <li>
+              <b>Hours:</b> {hours}
+            </li>
+            <li>
+              <b>Address:</b>
+              {address}
+            </li>
+            <li>
+              <b>Phone:</b>
+              {phone}
+            </li>
+            <li>
+              <b>Notes:</b>
+              {notes}
+            </li>
+          </ul>
         </span>
+        {/* Renders map to the page with marker set at restaurant's location */}
         <MapContainer
           className="restMap"
           center={[lat, lon]}
@@ -76,8 +90,7 @@ function RedPanda() {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
           {/*Set the marker position for Red Panda */}
-          <Marker position={[lat, lon]} icon={DefaultIcon}>
-          </Marker>
+          <Marker position={[lat, lon]} icon={DefaultIcon}></Marker>
         </MapContainer>
       </div>
     </>

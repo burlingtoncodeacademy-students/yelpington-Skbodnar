@@ -38,25 +38,40 @@ function Poco() {
         setNotes(dataArr.notes);
         setLat(dataArr.latitude);
         setLon(dataArr.longitude);
-        console.log(dataArr.name)
+        console.log(dataArr.name);
       });
   }, []);
 
   return (
     <>
       <div>
+        {/* Renders Header component to the page along with Restaurant name and information */}
         <Header />
         <span className="Info">
-        <h1 id="restName">
-        <b><i>{name}</i></b>
-        </h1>
-        <ul id="restInfo">
-          <li><b>Hours:</b> {hours}</li> 
-          <li><b>Address:</b>{address}</li>
-          <li><b>Phone:</b>{phone}</li>
-          <li><b>Notes:</b>{notes}</li>
-        </ul>
+          <h1 id="restName">
+            <b>
+              <i>{name}</i>
+            </b>
+          </h1>
+          <ul id="restInfo">
+            <li>
+              <b>Hours:</b> {hours}
+            </li>
+            <li>
+              <b>Address:</b>
+              {address}
+            </li>
+            <li>
+              <b>Phone:</b>
+              {phone}
+            </li>
+            <li>
+              <b>Notes:</b>
+              {notes}
+            </li>
+          </ul>
         </span>
+        {/* Renders map to the page with marker set at restaurant's location */}
         <MapContainer
           className="restMap"
           center={[lat, lon]}
@@ -74,8 +89,7 @@ function Poco() {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
           {/*Set the marker position for Poco */}
-          <Marker position={[lat, lon]} icon={DefaultIcon}>
-          </Marker>
+          <Marker position={[lat, lon]} icon={DefaultIcon}></Marker>
         </MapContainer>
       </div>
     </>

@@ -1,8 +1,10 @@
+//Import React, stylesheet, and Link from react router
 import React from "react";
 import "./mainCss.css";
 import { Link } from "react-router-dom";
 
 function NavBar() {
+  // Link each restaurant page to their respective button, so that user goes to page onClick
   return (
     <div className="restButtons">
       <span id="buttons">
@@ -30,7 +32,7 @@ function NavBar() {
       </span>
 
       <span id="buttons">
-        <Link to="/shy-guy">Shy Guy</Link>
+        <Link to="/shy-guy">Shy Guy Gelato</Link>
       </span>
 
       <span id="buttons">

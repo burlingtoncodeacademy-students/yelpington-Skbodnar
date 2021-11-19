@@ -1,3 +1,8 @@
+/*Consistent background color for all pages */
+Body {
+  background-color: salmon;
+}
+
 /*Removing bullets from list items displayed in info section of restaurant pages */
 #restInfo {
   list-style: none;
@@ -94,7 +99,7 @@ hr.roundedLine {
   width: 400px;
   border-radius: 1px;
   text-decoration: underline;     
-  text-decoration-color: #7b2cbf;
+  text-decoration-color: #EEFCCE;
 }
 
 /* styling for restaurant info on page*/

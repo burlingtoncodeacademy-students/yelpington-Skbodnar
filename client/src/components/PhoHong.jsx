@@ -46,6 +46,7 @@ function PhoHong() {
   return (
     <>
       <div>
+        {/* Renders Header component to the page along with Restaurant name and information */}
         <Header />
         <span className="Info">
           <h1 id="restName">
@@ -71,6 +72,7 @@ function PhoHong() {
             </li>
           </ul>
         </span>
+        {/* Renders map to the page with marker set at restaurant's location */}
         <MapContainer
           className="restMap"
           center={[lat, lon]}

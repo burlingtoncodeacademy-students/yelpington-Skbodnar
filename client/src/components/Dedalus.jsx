@@ -45,6 +45,7 @@ function Dedalus() {
 
   return (
     <>
+      {/* Renders Header component to the page along with Restaurant name and information */}
       <div>
         <Header />
         <span className="Info">
@@ -55,23 +56,24 @@ function Dedalus() {
           </h1>
           <ul id="restInfo">
             <li>
-              <b>Hours:</b>  
-               {hours}
+              <b>Hours:</b>
+              {hours}
             </li>
             <li>
               <b>Address:</b>
-               {address}
+              {address}
             </li>
             <li>
               <b>Phone:</b>
-               {phone}
+              {phone}
             </li>
             <li>
               <b>Notes:</b>
-               {notes}
+              {notes}
             </li>
           </ul>
         </span>
+        {/* Renders map to the page with marker set at restaurant's location */}
         <MapContainer
           className="restMap"
           center={[lat, lon]}

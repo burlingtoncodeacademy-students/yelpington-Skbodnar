@@ -47,6 +47,7 @@ function Farmhouse() {
 
   return (
     <>
+      {/* Renders Header component to the page along with Restaurant name and information */}
       <div>
         <Header />
         <span className="Info">
@@ -71,6 +72,7 @@ function Farmhouse() {
           </li>
         </ul>
         </span>
+              {/* Renders map to the page with marker set at restaurant's location */}
         <MapContainer
           className="restMap"
           center={[lat, lon]}
@@ -87,7 +89,7 @@ function Farmhouse() {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
-          {/*Set the marker position for Farm House */}
+          {/*Set the marker position for FarmHouse */}
           <Marker position={[lat, lon]} icon={DefaultIcon}>
             <Popup>
               <Link to="/farmhouse">Farm House Tap and Grill</Link>

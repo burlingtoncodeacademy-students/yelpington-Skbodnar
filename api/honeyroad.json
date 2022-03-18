@@ -1,0 +1,15 @@
+{
+  "id": "honey-road",
+  "name": "Honey Road",
+  "address": "156 Church St",
+  "phone": "802-497-2145",
+  "hours": [
+    "Thursdy: 5pm-9pm",
+    "Friday: 5pm - 9pm",
+    "Saturday: 5pm - 9pm",
+    "Sunday - Tusday: Closed"
+  ],
+  "latitude": 44.476290910282735,
+  "longitude": -73.21234073245874,
+  "notes": "Fabulous!"
+}

@@ -1,0 +1,114 @@
+/*Consistent background color for all pages */
+Body {
+  background-color: salmon;
+}
+
+/*Removing bullets from list items displayed in info section of restaurant pages */
+#restInfo {
+  list-style: none;
+}
+
+/*Styling for Yelpington Header */
+#pageHeader {
+  text-align: center;
+  color: #7b2cbf;
+  font-size: 100px;
+  text-shadow: #b086d3 3px 3px 3px;
+}
+
+ /* Rounded border to style header */
+hr.roundedLine {
+  border-top: 3px solid #EEFCCE;
+  border-radius: 5px;
+  margin-right: 145px;
+
+}
+
+/*Styling for home button that appears in top-left of every page */
+#homeLink {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 25px;
+  background-color: #b086d3;
+  border: 2px solid black;
+  border-radius: 2px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+
+/* Adding a color change on honver */
+#homeLink:hover {
+  background-color: #EEFCCE;
+}
+
+/* Flex box for column of buttons on homepage*/
+.restButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  float: right;
+  padding: 100px;
+  float: right;
+}
+
+/* styling for homepage restaurant buttons */
+#buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 25px;
+  color: black;
+  background-color: #b086d3;
+  border: 2px solid black;
+  border-radius: 2px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+
+/*Restaurant buttons on home page */
+#buttons:hover {
+  background-color: #EEFCCE
+}
+
+/*Styling for map */
+.mapContainer {
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+/* Map placement on page */
+.restMap {
+  margin: 100px;
+}
+
+/* Flex box for restaurant info styling*/
+.Info {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  padding: 3em;
+}
+
+/* styling for restaurant Name on page*/
+#restName {
+  font-size: 175%;
+  align-items: center;
+  width: 400px;
+  border-radius: 1px;
+  text-decoration: underline;     
+  text-decoration-color: #EEFCCE;
+}
+
+/* styling for restaurant info on page*/
+#restInfo{
+  border: solid black;
+  align-items: center;
+  text-align: left;
+  width: 300px;
+  border-radius: 1px;
+  margin-right: 100px;
+  background-color: #EEFCCE
+}

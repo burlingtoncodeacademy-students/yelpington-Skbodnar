@@ -1,0 +1,10 @@
+{
+  "id": "farmhouse",
+  "name": "The Farmhouse Tap & Grill",
+  "address": "160 Bank St",
+  "phone": "(802) 859-0888",
+  "hours": ["Monday - Friday: 4PM-10PM;", "Saturday - Sunday: 12pm - 10pm"],
+  "latitude": 44.47854842725688,
+  "longitude": -73.21328354410184,
+  "notes": "Very Noisy!"
+}

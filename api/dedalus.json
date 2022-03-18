@@ -1,0 +1,10 @@
+{
+  "id": "dedalus",
+  "name": "Dedalus",
+  "address": "388 Pine St",
+  "phone": "802-865-2368",
+  "hours": ["Sunday - Saturday: 5PM-10PM"],
+  "latitude": 44.468722390587146,
+  "longitude": -73.2142729594449,
+  "notes": "Pricey, but worth it!"
+}
